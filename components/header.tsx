@@ -25,24 +25,25 @@ const Header: React.FC = () => {
       </div>
       <ul className={
         `flex flex-row items-center h-full mr-4 text-lg
-        [&>*]:w-24 [&>*]:grid [&>*]:place-items-center`
+        [&>*]:w-24 [&>*]:grid [&>*]:place-items-center [&>*]:h-full
+        `
       }>
-        <li className=''>
+        <li className='hover:bg-teal-700 dark:hover:bg-slate-600'>
           <button onClick={ switchTheme }>Change Theme</button>
         </li>
-        <li className=''>
+        <li className='hover:bg-teal-700 dark:hover:bg-slate-600'>
           <Link href="/projects">Projects</Link>
         </li>
-        <li className=''>
+        <li className='hover:bg-teal-700 dark:hover:bg-slate-600'>
           <Link href="/about">About</Link>
         </li>
-        <li className=''>
+        <li className='hover:bg-teal-700 dark:hover:bg-slate-600'>
           <Link href="/contact">Contact</Link>
         </li>
-        <li className=''>
+        <li className='hover:bg-teal-700 dark:hover:bg-slate-600'>
           <Link href="/blog">Blog</Link>
         </li>
-        <li className=''>
+        <li className='hover:bg-teal-700 dark:hover:bg-slate-600'>
           <Link href="/resume">Resume</Link>
         </li>
       </ul>
