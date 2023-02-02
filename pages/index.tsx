@@ -1,7 +1,5 @@
-import { Inter } from '@next/font/google'
-import PageWithHeader from '@/components/page-with-header'
+import PageWithHeader from '../components/page-with-header'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
